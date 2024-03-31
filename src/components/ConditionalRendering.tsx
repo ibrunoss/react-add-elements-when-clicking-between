@@ -1,8 +1,8 @@
-import { ReactNode } from "react";
+import React from "react";
 
 type ConditionalRenderingProps = {
   renderIf: boolean;
-  children: ReactNode;
+  children: React.ReactNode;
 };
 function ConditionalRendering({
   children,

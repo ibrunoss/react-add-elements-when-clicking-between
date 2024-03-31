@@ -1,6 +1,6 @@
-import { HtmlHTMLAttributes } from "react";
+import React from "react";
 
-function Button(props: Readonly<HtmlHTMLAttributes<HTMLButtonElement>>) {
+function Button(props: Readonly<React.HtmlHTMLAttributes<HTMLButtonElement>>) {
   return (
     <button
       type="button"

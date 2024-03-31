@@ -1,4 +1,4 @@
-import { InputHTMLAttributes, useEffect, useRef } from "react";
+import React, { InputHTMLAttributes, useEffect, useRef } from "react";
 
 function Input(props: Readonly<InputHTMLAttributes<HTMLInputElement>>) {
   const inputRef = useRef<HTMLInputElement>(null);
